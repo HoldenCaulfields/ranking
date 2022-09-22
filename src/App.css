@@ -1,18 +1,36 @@
-.App {
-  text-align: center;
+
+.member {
+  display: flex;
+  width: 100%;
+  
 }
 
-.App img {
-  width: 300px;
-  height: 300px;
+.member img {
+  width: 100px;
+  height: 100px;
   cursor: pointer;
   border-radius: 50%;
+  
+}
+
+.member .percent {
+  background-color: pink;
+  color: pink;
+  height: 100px;
+  width: 100%;
+  margin-left: -50px;
+  z-index: -1;
 }
 
 img:hover {
   transform: scale(1.1);
 }
 
-.percent {
-  background-color: pink;
+
+ul {
+  list-style: none;
+}
+
+li {
+  margin-top: 50px;
 }
